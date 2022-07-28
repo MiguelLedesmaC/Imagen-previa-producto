@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+html {
+  background-color: #f2e9e2;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Overpass", sans-serif;
+  box-sizing: border-box;
+  background-color: #f2e9e2;
+}
+.card {
+  max-width: 373px;
+  max-height: 667px;
+  margin: 27px auto;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 100%);
+}
+.img-perfum {
+  background-image: url("/images/image-product-mobile.jpg");
+  background-size: cover;
+  width: 347px;
+  height: 242px;
+  margin: 27px auto 24px;
+  border-radius: 10px;
+}
+.content {
+  margin-left: 24px;
+}
+.text h2 {
+  font-size: 1em;
+  letter-spacing: 0.2rem;
+  color: hsl(217, 12%, 63%);
+}
+h1 {
+  font-size: 1.94em;
+
+  font-weight: 700;
+  max-width: 257px;
+  max-height: 55px;
+  margin-bottom: 26px;
+}
+.text p {
+  color: hsl(217, 12%, 63%);
+  font-size: 0.9em;
+  width: 287px;
+  height: 55px;
+  margin-bottom: 56px;
+}
+.prices {
+  display: flex;
+  width: 196px;
+  height: 25px;
+  margin-bottom: 24px;
+}
+#new-price {
+  color: #3d8168;
+  font-weight: 700;
+  font-size: 1.6em;
+}
+#old-price {
+  text-decoration: line-through;
+  color: hsl(216, 12%, 54%);
+  font-size: 0.9em;
+  margin-left: 26px;
+  margin-top: 9px;
+}
+.button-buy {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+button img {
+  margin-right: 12px;
+}
+button {
+  width: 294px;
+  height: 48px;
+  background-color: #3d8168;
+  margin-bottom: 28px;
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+}
+button:hover{
+  background-color:#1d4134 ;
+}
+
+@media screen and (min-width: 1200px) {
+  .card {
+    overflow: hidden;
+    max-width: 603px;
+    max-height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .img-perfum {
+    background-image: url("/images/image-product-desktop.jpg");
+    height: 450px;
+    width: 302px;
+    background-size: cover;
+    margin-left: 0;
+    margin-top: 0;
+    border-radius: 0;
+  }
+  .content {
+    width: 239px;
+    height: 450px;
+  }
+  .text {
+    margin: 22px auto;
+  }
+  .content h1 {
+    width: 239px;
+    height: 93px;
+    margin-bottom: 27px;
+  }
+  .content p {
+    font-size: 1em;
+    color: hsl(216, 12%, 54%);
+    width: 239px;
+    height: 85px;
+    margin-top: 70px;
+  }
+  .prices #new-price {
+    font-size: 2em;
+  }
+}
