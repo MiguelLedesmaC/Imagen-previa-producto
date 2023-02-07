@@ -13,7 +13,7 @@ Utilizé HTML y CSS, para darle vida a esta tarjetita de perfume que podria serv
 ## Ver ejemplo en vivo
 [https://miguelledesmac.github.io/Imagen-previa-producto/](https://miguelledesmac.github.io/Imagen-previa-producto/)
 
-##Instalacion
+## Instalacion
 Este proyecto no necesita instalacion. simplemente abre la carpeta o haz doble click en el .html
 
 ## Contratacion
