@@ -5,12 +5,10 @@ Este fue mi primer proyecto en mi carrera como desarrollador, tiene un valor sen
 
 Utilizé HTML y CSS, para darle vida a esta tarjetita de perfume que podria servir por ejemplo para un E-commerce.
 
-##Autor -
-**Nombre**
+## Autor 
+**Miguel Ledesma**
 
 *[LinkedIn](https://www.linkedin.com/in/miguelledesmac)
-*[Behance](https://www.behance.net/midominio)
-*[Portofolio](https://midominio.es)
 
 ## Ver ejemplo en vivo
 -[ENLACEGITHUBPAGES](ENLACEGITHUBPAGES)
@@ -19,21 +17,9 @@ Utilizé HTML y CSS, para darle vida a esta tarjetita de perfume que podria serv
 Este proyecto no necesita instalacion. simplemente abre la carpeta o haz doble click en el .html
 
 ## Contratacion
-Si quieres contrataqrme puedes escribirme a angelmiguellc35@gmail.com
+Si quieres contratarme puedes escribirme a angelmiguellc35@gmail.com para consultas.
 
-## Licencia
-MIT Public License v3.0
-
-
-
-
-
-
-
-
-
-
-<p></p>
+## Captura de pantalla
 
 <figure>
 <img width="400px" src="https://user-images.githubusercontent.com/103437837/217333697-683c9180-a47c-43c5-a374-73dedfa0f676.png"
