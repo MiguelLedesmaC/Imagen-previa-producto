@@ -1,3 +1,8 @@
+<h2>Reto logrado</h2>
 
-This is a first challenge in my carreer, is not perfect, but it has a sentimental value for me.
+<p>Este fue mi primer proyecto en mi carrera como desarrollador, tiene un valor sentimental para mi, por ser el primero que me salió e hizo especial ilusión.</p>
+
+
+
+
 
