@@ -11,7 +11,7 @@ Utilizé HTML y CSS, para darle vida a esta tarjetita de perfume que podria serv
 *[LinkedIn](https://www.linkedin.com/in/miguelledesmac)
 
 ## Ver ejemplo en vivo
--[ENLACEGITHUBPAGES](ENLACEGITHUBPAGES)
+[https://miguelledesmac.github.io/Imagen-previa-producto/](https://miguelledesmac.github.io/Imagen-previa-producto/)
 
 ##Instalacion
 Este proyecto no necesita instalacion. simplemente abre la carpeta o haz doble click en el .html
