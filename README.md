@@ -16,7 +16,7 @@ Utilizé HTML y CSS, para darle vida a esta tarjetita de perfume que podria serv
 Este proyecto no necesita instalacion. simplemente abre la carpeta o haz doble click en el .html
 
 ## Contratacion
-Si quieres contratarme puedes escribirme a angelmiguellc35@gmail.com para consultas.
+Si quieres contactarme puedes escribirme a angelmiguellc35@gmail.com para consultas.
 
 ## Captura de pantalla
 
