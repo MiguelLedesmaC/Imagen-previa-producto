@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+/* Codigo nuevo 6 meses después */
 *{
   margin: 0;
   padding: 0;
@@ -12,8 +13,92 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #f2e9e2;
+  padding: 50px 0;
+}
+section {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 100px;
 }
 .card {
+  width: 80%;
+  max-width: 544px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(13rem,2fr));
+  border-radius: 15px;
+  overflow: hidden;
+}
+.card__img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.card__footer-image {
+  font-size: .9rem;
+  letter-spacing: .3rem;
+  color:  hsl(217, 12%, 63%);
+}
+.description-container {
+  padding: 1.2rem 2.9rem;
+}
+h1 {
+  font-size: 1.85rem;
+  font-family: Fraunces;
+  font-weight: 700;
+  line-height: 1.9rem;
+}
+.card__description {
+  font-weight: 100;
+  font-size: .85rem;
+  color: hsl(217, 12%, 63%);
+  line-height: 1.4rem;
+}
+.price-container {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+}
+.card__new-price {
+  font-family: Fraunces;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+}
+.card__old-price {
+  font-size: .8rem;
+  text-decoration: line-through;
+  color: hsl(217, 12%, 63%);
+}
+.card__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  width: 100%;
+  padding: 9px;
+  border-radius: 10px;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  border: none;
+}
+button:hover{
+  background-color:#1d4134 ;
+}
+.attribution { 
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
+
+
+
+
+
+
+/*En mis inicios de programacion*/
+/* .card {
   max-width: 373px;
   max-height: 667px;
   margin: 27px auto;
@@ -142,4 +227,4 @@ button:hover{
   .prices #new-price {
     font-size: 2em;
   }
-}
+} */
