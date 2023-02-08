@@ -8,7 +8,10 @@ Utilizé HTML y CSS, para darle vida a esta tarjetita de perfume que podria serv
 ## Autor 
 **Miguel Ledesma**
 
-*[LinkedIn](https://www.linkedin.com/in/miguelledesmac)
+## Ejemplo en vivo
+[Demo](https://miguelledesmac.github.io/Imagen-previa-producto/)
+## Contacto
+[LinkedIn](https://www.linkedin.com/in/miguelledesmac)
 
 
 
