@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+/* Codigo nuevo 6 meses después */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: #f2e9e2;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 50px 0;
+}
+section {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 100px;
+}
+.card {
+  width: 89%;
+  max-width: 550px;
+  display: grid;
+  background-color: white;
+  grid-template-columns: repeat(auto-fill,minmax(14rem,2fr));
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card__img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.card__footer-image {
+  font-size: .9rem;
+  letter-spacing: .3rem;
+  color:  hsl(217, 12%, 63%);
+}
+.description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 1.2rem 1.7rem;
+}
+h1 {
+  width: 100%;
+  font-size: 2.3rem;
+  font-family: Fraunces, sans-serif;
+  line-height: 2rem;
+}
+.card__description {
+  font-weight: 100;
+  font-size: .95rem;
+  color: hsl(217, 12%, 63%);
+  line-height: 1.7rem;
+  margin-bottom: 30px;
+}
+.price-container {
+  display: flex;
+  align-items: center;
+}
+.card__new-price {
+  font-family: Fraunces, sans-serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+}
+.card__old-price {
+  font-size: .8rem;
+  text-decoration: line-through;
+  color: hsl(217, 12%, 63%);
+  margin-left: 20px;
+}
+.card__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  width: 100%;
+  font-weight: 700;
+  padding: 17px;
+  border-radius: 10px;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover{
+  background-color:#1d4134 ;
+}
+.attribution { 
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
+
+
+
+
+
+
+/*En mis inicios de programacion*/
+/* .card {
+  max-width: 373px;
+  max-height: 667px;
+  margin: 27px auto;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 100%);
+  overflow: hidden;
+}
+.img-perfum {
+  background-image: url("../images/image-product-mobile.jpg");
+  background-size: cover;
+  width: 373px;
+  height: 242px;
+  border-radius: 10px 0 0;
+  margin-bottom:25px ;
+}
+.content {
+  margin-left: 24px;
+}
+.text h2 {
+  font-size: 0.80em;
+  letter-spacing: 0.2rem;
+  color: hsl(217, 12%, 63%);
+}
+h1 {
+  font-family: 'Fraunces', serif;
+  font-size: 1.85em;
+  font-weight: 700;
+  max-width: 257px;
+  max-height: 55px;
+  margin-bottom: 28px;
+}
+.text p {
+  color: hsl(217, 12%, 63%);
+  font-size: 0.80em;
+  line-height: 22px;
+  width: 287px;
+  height: 55px;
+  margin-bottom: 56px;
+}
+.prices {
+
+  display: flex;
+  width: 196px;
+  height: 25px;
+  margin-bottom: 24px;
+}
+#new-price {
+  font-family: 'Fraunces', serif;
+  color: #3d8168;
+  font-weight: 700;
+  font-size: 1.6em;
+}
+#old-price {
+  text-decoration: line-through;
+  color: hsl(216, 12%, 54%);
+  font-size: 0.9em;
+  margin-left: 26px;
+  margin-top: 9px;
+}
+.button-buy {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+button img {
+  margin-right: 12px;
+}
+button {
+  width: 294px;
+  height: 48px;
+  background-color: #3d8168;
+  margin-bottom: 28px;
+  color: white;
+  font-weight: 700;
+  font-size: 0.85em;
+  border-radius: 10px;
+  border: none;
+}
+button:hover{
+  background-color:#1d4134 ;
+}
+.attribution { 
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 1200px) {
+  .card {
+    overflow: hidden;
+    max-width: 603px;
+    max-height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .img-perfum {
+    background-image: url("../images/image-product-desktop.jpg");
+    height: 450px;
+    width: 302px;
+    background-size: cover;
+    margin-left: 0;
+    margin-top: 0;
+    border-radius: 0;
+  }
+  .content {
+    width: 239px;
+    height: 450px;
+  }
+  .text {
+    margin: 22px auto;
+  }
+  .content h1 {
+    width: 239px;
+    height: 93px;
+    margin-bottom: 27px;
+  }
+  .content p {
+    font-size: 1em;
+    color: hsl(216, 12%, 54%);
+    width: 239px;
+    height: 85px;
+    margin-top: 70px;
+  }
+  .prices #new-price {
+    font-size: 2em;
+  }
+} */
